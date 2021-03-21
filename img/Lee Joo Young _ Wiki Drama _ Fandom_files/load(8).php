@@ -1,0 +1,3 @@
+;var SocialMediaButtonsNamespaces=[0,6,14,500];var SocialMediaButtons={position:"top",colorScheme:"color",buttonSize:"35px",wikiTwitterAccount:"wikia_es"};importScriptPage('SocialIcons/code.js','dev');var ShowHideConfig={linkBefore:!0};importScriptPage('ShowHide/code.js','dev');window.ajaxPages=["Special:WikiActivity","Special:RecentChanges","Special:Watchlist","Special:Log","Special:Contributions"];window.AjaxRCRefreshText='Auto-refresh';window.AjaxRCRefreshHoverText='Automatically refresh the page';;;mw.loader.state({"site":"ready"});
+
+/* cache key: esdrama:resourceloader:filter:minify-js:7:1106d83a8accb1da73dc10008785e5d7 */

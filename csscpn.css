@@ -1,0 +1,419 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.baner .conten {
+    width: 100%;
+    position: relative;
+}
+
+.baner-img {
+    background-image: url(img/photo-1527904219733-fddc74937915-6\ \(1\).webp);
+    width: 60%;
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+    z-index: 1;
+}
+
+.baner-text {
+    text-transform: uppercase;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    font-size: 21px;
+    color: #424242;
+    z-index: 2;
+    letter-spacing: 3px;
+    width: 50%;
+}
+
+.baner-text h1 {
+    font-weight: bolder;
+    margin: 0;
+    font-size: 48px;
+}
+
+.click a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #424242;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: 2px solid #000;
+    display: inline-block;
+    font-size: 16px;
+    background-color: transparent;
+    transition: all 0.5S;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+}
+
+.click:hover a {
+    color: #FFF;
+    background-color: #aebdac;
+    background-color: #aebdac;
+    border: 2px solid#aebdac;
+}
+
+
+/*conten-1*/
+
+* {
+    box-sizing: border-box;
+}
+
+.conten-1 {
+    float: left;
+    padding: 10px
+}
+
+.text-small {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+}
+
+.clearfix .warp {
+    width: 60%;
+    text-align: right;
+    font-size: 18px;
+}
+
+.warp p:first-child {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #424242;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.album {
+    background-image: url(img/photo-1527904219733-fddc74937915-6\ \(1\).webp);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 420px;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.text-favorites {
+    text-align: center;
+    font-size: 40px;
+    color: #576855;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+/*conten-2*/
+
+.swap .album {
+    background-image: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    height: 459px;
+}
+
+.img-right {
+    width: 70%;
+    z-index: 1;
+    background-image: url(img/GettyImages-892236960_edited.webp);
+    background-position: center;
+    background-size: cover;
+    height: 459px;
+    position: relative;
+}
+
+.img-left {
+    width: 30%;
+    z-index: -2;
+    background-image: url(img/GettyImages-818735824.webp);
+    background-position: center;
+    background-size: cover;
+    height: 360px;
+    position: absolute;
+    left: 15%;
+    z-index: 3;
+}
+
+.swap .text-small {
+    height: 459px;
+}
+
+.swap .warp {
+    text-align: left;
+}
+
+
+/*conten-2*/
+
+.text-favorites p {
+    font-size: 20px;
+    vertical-align: baseline;
+    letter-spacing: 0.05em;
+    color: #424242;
+    text-align: justify;
+    margin: auto;
+    width: 80%;
+    text-transform: capitalize;
+}
+
+.clearfix-2 {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.clearfix-2 .album {
+    background-image: url(img/alex-loup-393839-unsplash\(hand\)2.webp);
+    flex-grow: 1;
+    height: 450px;
+    position: relative;
+}
+
+.clearfix-2 .text-small {
+    flex-grow: 1;
+    flex-basis: 50%;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.clearfix-2 .warp-2 {
+    width: 70%;
+    color: #424242;
+    ;
+    line-height: 1.9em;
+    opacity: 0.7;
+    text-align: left;
+}
+
+.warp-2 p:last-child {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.clearfix-2 .click {
+    position: absolute;
+    bottom: 80px;
+    right: -20%;
+}
+
+
+/*conten-38*/
+
+.conten-3 {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+}
+
+.list-album {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: inherit;
+    justify-content: space-evenly;
+    margin-bottom: 36px;
+}
+
+.item-img {
+    flex-basis: 207px;
+    height: 207px;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+}
+
+.item-img img {
+    max-width: 100%;
+    height: 100%
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: all 0.5s;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+}
+
+.overlay {
+    display: none;
+}
+
+.item-img:hover .overlay {
+    display: block;
+}
+
+.item-img:hover .layer {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+i {
+    padding: 4px;
+}
+
+
+/*footer*/
+
+.tfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    flex-basis: 20%;
+    height: 270px;
+    padding: 10px;
+}
+
+.col-2 {
+    flex-basis: 30%;
+    height: 270px;
+}
+
+.col-1 ul {
+    list-style: none;
+    display: inline;
+}
+
+.col-1 li {
+    padding: 8px 0;
+}
+
+.col-1 a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.tfooter h3 {
+    text-transform: uppercase;
+}
+
+.col-2 div {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.col-2 a,
+input {
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #424242;
+    letter-spacing: 0.05em;
+    border: 2px solid #424242;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.col-2 a:hover {
+    color: grey;
+}
+
+.last {
+    flex-grow: 1;
+    width: 100%;
+    text-align: center;
+    color: #424242;
+    font-size: 15px;
+    margin: 0;
+}
+
+
+/*header*/
+
+.theader {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    margin: auto;
+    width: 68%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    border: 8px solid #000;
+}
+
+.logo a {
+    letter-spacing: 8px;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000 !important;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.theader a {
+    color: #424242;
+    ;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.login {
+    padding: 13px;
+}
+
+i {
+    padding: 10px;
+    color: #000;
+}
+
+.menu a:hover {
+    color: #839C80;
+}
+
+.scron {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 3%;
+    top: 50%;
+}
